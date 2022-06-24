@@ -17,6 +17,7 @@ license {
 
 java_library {
     name: "xmp_toolkit",
+    host_supported: true,
     // Include all the java files.
     srcs: ["src/**/*.java"],
     sdk_version: "current",
