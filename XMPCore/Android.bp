@@ -21,4 +21,9 @@ java_library {
     // Include all the java files.
     srcs: ["src/**/*.java"],
     sdk_version: "current",
+    errorprone: {
+        javacflags: [
+            "-Xep:ComparableType:WARN",
+        ],
+    },
 }
