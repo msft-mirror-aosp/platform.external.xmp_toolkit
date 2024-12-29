@@ -1,3 +1,4 @@
 # used by some apps
 include platform/packages/apps/Gallery2:/OWNERS
 include platform/packages/apps/Camera2:/OWNERS
+include platform/system/core:/janitors/OWNERS #{LAST_RESORT_SUGGESTION}
